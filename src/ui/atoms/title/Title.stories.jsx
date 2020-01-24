@@ -1,10 +1,9 @@
 import React from "react"
-import { action } from "@storybook/addon-actions"
 import darkBGC from "../../../../.storybook/addonParamater"
 import Title from "./Title"
 
 export default {
-  title: "Atoms/Title",
+  title: "Atoms/Text/Title",
   component: Title,
 }
 

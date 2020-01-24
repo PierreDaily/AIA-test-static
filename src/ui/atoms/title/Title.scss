@@ -1,8 +1,8 @@
 @import '../../../scss/color';
 
 @mixin basicTitle {
-    font-family: Montserrat;
-  }
+  font-family: Montserrat;
+}
 
 h1.primaryTitle, .secondaryTitle, .tertiaryTitle {
   @include basicTitle;

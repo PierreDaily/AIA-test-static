@@ -1,0 +1,29 @@
+@import "../../../../scss/color.scss";
+@import "../../../../scss/font.scss";
+
+@mixin smallGrey {
+  font-family: $secondaryFont;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  line-height:  1.4rem;
+}
+
+p.bigWhite {
+  color: $whiteLight;
+  font-family: $secondaryFont;
+  font-size: 1.8rem;
+  font-weight: lighter;
+  line-height:  2.45rem;
+  text-align: center;
+}
+
+p.smallGreyLight {
+  @include smallGrey;
+  color: $greyLight;
+}
+
+p.smallGreyDark {
+  @include smallGrey;
+  color: $greyDark;
+  text-align: center;
+}
