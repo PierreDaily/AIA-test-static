@@ -1,0 +1,26 @@
+@import '../../../scss/color';
+
+@mixin basicTitle {
+    font-family: Montserrat;
+  }
+
+h1.primaryTitle, .secondaryTitle, .tertiaryTitle {
+  @include basicTitle;
+}
+
+h1.primaryTitle {
+  color: $white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2.secondaryTitle {
+  color: $black;
+  font-size: 1.4 rem;
+}
+
+h3.tertiaryTitle {
+  color: $white;
+  font-size: 1.6 rem;
+}
