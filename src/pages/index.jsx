@@ -5,10 +5,12 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import "normalize.css"
+import Button from "../ui/atoms/button/Button"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <Button label="Click Me" handleClick={() => console.log("test")} />
+    <SEO title="AIA UI TEST" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>

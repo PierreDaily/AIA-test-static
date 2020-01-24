@@ -1,0 +1,30 @@
+@import '../../../scss/color';
+
+@mixin basicButton {
+  border-radius: 25px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  height: 2.5rem;
+  line-height: normal;
+  letter-spacing: normal;
+  padding: 0;
+  text-align: center;
+  width: 17.5rem;
+}
+
+.redBackground {
+  @include basicButton;
+  background-color: $red;
+  border: none;
+  color: $white;
+} 
+
+.whiteBackground {
+  @include basicButton;
+  background-color: $white;
+  border: solid 2px $red;
+  color: $red;
+}
