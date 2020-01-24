@@ -4,15 +4,24 @@
   font-family: Montserrat;
 }
 
-h1.primaryTitle, .secondaryTitle, .tertiaryTitle {
+@mixin primary {
+  color: $white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1.primaryTitle, h1.primarySubtitle, .secondaryTitle, .tertiaryTitle {
   @include basicTitle;
 }
 
 h1.primaryTitle {
-  color: $white;
+  @include primary;
   font-size: 3rem;
-  text-transform: uppercase;
-  text-align: center;
+}
+
+h1.primarySubtitle {
+  @include primary;
+  font-size: 2rem;
 }
 
 h2.secondaryTitle {
