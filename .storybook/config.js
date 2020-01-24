@@ -1,5 +1,6 @@
 import { configure } from "@storybook/react"
 import { action } from "@storybook/addon-actions"
+import "normalize.css"
 // automatically import all files ending in *.stories.js
 configure(require.context("../src", true, /\.stories\.js$/), module)
 // Gatsby's Link overrides:
