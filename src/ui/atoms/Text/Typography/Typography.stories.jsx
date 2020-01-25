@@ -7,9 +7,10 @@ export default {
   component: Typography,
 }
 
-export const bigWhite = () => (
-  <Typography content="share your holiday dream" variant="bigWhite" />
+export const regularWhiteLight = () => (
+  <Typography content="How it works" variant="regularWhiteLight" />
 )
+
 export const smallGreyLight = () => (
   <Typography content="How it works" variant="smallGreyLight" />
 )
@@ -17,6 +18,6 @@ export const smallGreyDark = () => (
   <Typography content="Sed-leo-enim-condim" variant="smallGreyDark" />
 )
 
-bigWhite.story = {
+regularWhiteLight.story = {
   parameters: darkBGC,
 }

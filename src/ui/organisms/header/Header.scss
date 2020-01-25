@@ -1,0 +1,28 @@
+.header {
+  background-image: url(../../../images/header/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.header__middle {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 36rem;;
+  justify-content: middle;
+  padding-top: 2.6rem;
+  width: 100%;
+}
+
+.header__top {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18rem;
+  padding-top: 2rem;
+  width: 100%;
+}
