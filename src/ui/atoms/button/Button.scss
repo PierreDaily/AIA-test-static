@@ -1,8 +1,9 @@
 @import '../../../scss/color';
+@import "../../../scss/font.scss";
 
 @mixin basicButton {
   border-radius: 25px;
-  font-family: Montserrat;
+  font-family: $primaryFont;
   font-size: 1.4rem;
   font-weight: bold;
   font-stretch: normal;
@@ -12,6 +13,32 @@
   padding: 0;
   text-align: center;
   width: 28rem;
+}
+
+@mixin smallHeaderButton {
+  background: none;
+  color: $white;
+  font-family: $primaryFont;
+  width: 9rem;
+  height: 3.6rem;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+button.noBGCNoBorder {
+  @include smallHeaderButton;
+  border: none;
+  width: 6rem;;
+}
+
+button.noBGCWithBorder {
+  @include smallHeaderButton;
+  border-radius: 40px;
+  border: solid 2px #ffffff;
 }
 
 .redBackground {
