@@ -12,4 +12,4 @@ To style our components I am using SASS for crossplatform compatibility, normali
 
 To improve code consistency I am using EsLint and Prettier.
 
-Finaly all the component are going to build in an isolated environment using Storybook.
+Finaly all the component are going to be build in an isolated environment using Storybook.
