@@ -5,13 +5,13 @@ import "./Title.scss"
 const Title = ({ title, variant }) => {
   switch (variant) {
     case "h1":
-      return <h1 className="primaryTitle">{title}</h1>
+      return <h1 className="h1__front-page__big">{title}</h1>
     case "h1Subtitle":
-      return <h1 className="primarySubtitle">{title}</h1>
+      return <h1 className="h1__front-page__medium">{title}</h1>
     case "h2":
-      return <h2 className="secondaryTitle">{title}</h2>
+      return <h2 className="h2__front-page">{title}</h2>
     case "h3":
-      return <h3 className="tertiaryTitle">{title}</h3>
+      return <h3 className="h3__front-page">{title}</h3>
     default:
       return null
   }

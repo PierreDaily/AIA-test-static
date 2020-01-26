@@ -8,14 +8,14 @@ export default {
 }
 
 export const regularWhiteLight = () => (
-  <Typography content="How it works" variant="regularWhiteLight" />
+  <Typography content="How it works" variant="typo__regular__white-light" />
 )
 
 export const smallGreyLight = () => (
-  <Typography content="How it works" variant="smallGreyLight" />
+  <Typography content="How it works" variant="typo__small__grey-light" />
 )
 export const smallGreyDark = () => (
-  <Typography content="Sed-leo-enim-condim" variant="smallGreyDark" />
+  <Typography content="Sed-leo-enim-condim" variant="typo__small__grey-dark" />
 )
 
 regularWhiteLight.story = {

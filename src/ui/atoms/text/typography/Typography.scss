@@ -15,18 +15,18 @@
   line-height:  1.4rem;
 }
 
-p.regularWhiteLight {
+.typo__regular__white-light {
   @include regular;
   color: $whiteLight;
   text-align: center;
 }
 
-p.smallGreyLight {
+.typo__small__grey-light {
   @include small;
   color: $greyLight;
 }
 
-p.smallGreyDark {
+.typo__small__grey-dark {
   @include small;
   color: $greyDark;
   text-align: center;
