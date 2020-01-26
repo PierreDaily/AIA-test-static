@@ -8,38 +8,38 @@ export default {
   component: Button,
 }
 
-export const noBGCNoBorder = () => (
-  <Button
-    label="Login"
-    handleClick={action("clicked")}
-    variant="noBGCNoBorder"
-  />
+export const login = () => (
+  <Button label="Login" handleClick={action("clicked")} variant="btn__login" />
 )
 
-export const noBGCWithBorder = () => (
+export const signIn = () => (
   <Button
     label="Sign up"
     handleClick={action("clicked")}
-    variant="noBGCWithBorder"
+    variant="btn__sign-up"
   />
 )
 
 export const redBackground = () => (
-  <Button label="Find your holiday partner" handleClick={action("clicked")} />
+  <Button
+    label="Find your holiday partner"
+    handleClick={action("clicked")}
+    variant="btn__action__red-bgc"
+  />
 )
 
 export const whiteBackground = () => (
   <Button
     label="Find your holiday partner"
     handleClick={action("clicked")}
-    variant="whiteBackground"
+    variant="btn__action__white-bgc"
   />
 )
 
-noBGCNoBorder.story = {
+login.story = {
   parameters: darkBGC,
 }
 
-noBGCWithBorder.story = {
+signIn.story = {
   parameters: darkBGC,
 }

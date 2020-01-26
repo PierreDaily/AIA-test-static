@@ -11,7 +11,11 @@ const Introduction = () => (
       content="And find the perfect partner to fullfill it"
       variant="regularWhiteLight"
     />
-    <Button label="Find your holiday partner" handleClick={() => null} />
+    <Button
+      label="Find your holiday partner"
+      handleClick={() => null}
+      variant="btn__action__red-bgc"
+    />
   </div>
 )
 

@@ -9,12 +9,12 @@ const SignInSignUp = ({ handleLoginClick, handleSignInClick }) => (
       <Button
         handleClick={handleLoginClick}
         label="Login"
-        variant="noBGCNoBorder"
+        variant="btn__login"
       />
       <Button
         handleClick={handleSignInClick}
         label="Sign up"
-        variant="noBGCWithBorder"
+        variant="btn__sign-up"
       />
     </div>
     <Title title="HOLIDAY HOLIDAY" variant="h1Subtitle" />

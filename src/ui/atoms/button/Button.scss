@@ -29,27 +29,27 @@
   letter-spacing: normal;
 }
 
-button.noBGCNoBorder {
+.btn__login {
   @include smallHeaderButton;
   border: none;
   padding-left: 0;
   width: 6rem;;
 }
 
-button.noBGCWithBorder {
+.btn__sign-up {
   @include smallHeaderButton;
   border-radius: 40px;
   border: solid 2px #ffffff;
 }
 
-.redBackground {
+.btn__action__red-bgc {
   @include basicButton;
   background-color: $red;
   border: none;
   color: $white;
 } 
 
-.whiteBackground {
+.btn__action__white-bgc {
   @include basicButton;
   background-color: $white;
   border: solid 2px $red;

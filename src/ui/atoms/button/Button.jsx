@@ -9,7 +9,7 @@ const Button = ({ handleClick, label, variant }) => (
 )
 
 Button.defaultProps = {
-  variant: "redBackground",
+  variant: "btn__action__red-bgc",
 }
 
 Button.propTypes = {
