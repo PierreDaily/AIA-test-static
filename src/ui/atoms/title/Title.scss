@@ -1,3 +1,4 @@
+@import "../../../scss/breakpoints.scss";
 @import '../../../scss/color';
 @import "../../../scss/font.scss";
 
@@ -35,4 +36,10 @@
 .h3__front-page {
   color: $white;
   font-size: 2.4rem;
+}
+
+@media (min-width: $break-tablet) {
+  .h1__front-page__big {
+    font-size: 5.4rem;
+  }
 }

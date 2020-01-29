@@ -1,3 +1,5 @@
+@import "../../../scss/breakpoints.scss";
+
 .header {
   background-image: url(../../../images/header/background.jpg);
   background-size: cover;
@@ -11,7 +13,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 36rem;;
+  height: 70vh;
   justify-content: middle;
   padding-top: 2.6rem;
   width: 100%;
@@ -22,7 +24,29 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 18rem;
+  height: 30vh;
   padding-top: 2rem;
   width: 100%;
+}
+
+@media (min-width: $break-tablet) {
+  .header__middle {
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+    width: 70%;
+  }
+
+  .header__top {
+    flex-direction: row-reverse;
+    height: 10vh;
+    justify-content: space-around;
+    position: absolute;
+  }
+}
+
+@media (min-width: $break-desktop) {
+  .header__middle {
+    width: 40%;
+  }
 }
