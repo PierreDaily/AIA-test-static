@@ -1,3 +1,6 @@
+**30-01-2020 UPDATE** : 30-01-2020 - 9pm / UPDATE : 70% of the web integration is complete and responsive.
+Lastest build preview can be found here : https://quizzical-neumann-f11535.netlify.com/
+
 **26-01-2020 UPDATE** : I couldn't finish this test on time because i spent too much time setting up tools ( storybook, webpack config, path problems, render differences between storybook and final build,etc. ), learning about Atomic Design and BEM css method.
 
 I failed but the most important is that I learned a lot from this experience. I am going to take my time and keep working on this test.
