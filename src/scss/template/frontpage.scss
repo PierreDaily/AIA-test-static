@@ -1,0 +1,11 @@
+@import "../breakpoints.scss";
+
+.front-page__section__card-list {
+  margin-top: 3.5rem;
+}
+
+@media (min-width: $break-tablet) {
+  .front-page__section__card-list {
+    margin-top: 9.5rem;
+  }
+}

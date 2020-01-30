@@ -4,7 +4,7 @@ import Button from "../../atoms/button/Button"
 import Title from "../../atoms/title/Title"
 
 const SignInSignUp = ({ handleLoginClick, handleSignInClick }) => (
-  <React.Fragment>
+  <>
     <div>
       <Button
         handleClick={handleLoginClick}
@@ -18,7 +18,7 @@ const SignInSignUp = ({ handleLoginClick, handleSignInClick }) => (
       />
     </div>
     <Title title="HOLIDAY HOLIDAY" variant="h1Subtitle" />
-  </React.Fragment>
+  </>
 )
 
 SignInSignUp.propTypes = {

@@ -24,6 +24,7 @@
 
 @media (min-width: $break-tablet) {
   .card-basic {
-    height: 40rem;;
+    height: 40rem;
+    max-width: 30rem;
   }
 }

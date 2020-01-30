@@ -10,8 +10,7 @@ export default {
 export const basic = () => (
   <Basic
     content="Quisque libero liber, Quisque libero liber. Quisque libero liber. Quisque libero liber, Quisque libero liber. Quisque libero liber."
-    title="sed leo enim, condimentum
-"
+    title="sed leo enim, condimentum"
     stepIndex={1}
   />
 )
