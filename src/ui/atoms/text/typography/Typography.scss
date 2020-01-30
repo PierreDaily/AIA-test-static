@@ -38,6 +38,7 @@
 .typo__small__grey-dark {
   @include small;
   color: $greyDark;
+  line-height: 1.6rem;
   margin-bottom: 0;
   margin-top: 0;
   text-align: center;
