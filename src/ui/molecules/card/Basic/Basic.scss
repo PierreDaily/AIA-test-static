@@ -1,0 +1,29 @@
+@import "../../../../scss/breakpoints.scss";
+@import '../../../../scss/color.scss';
+@import "../../../../scss/font.scss";
+
+.card-basic {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 24rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  
+  & > * {
+    margin-bottom: 1rem;
+  }
+  & > *:last-child {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: $break-tablet) {
+  .card-basic {
+    height: 40rem;;
+  }
+}

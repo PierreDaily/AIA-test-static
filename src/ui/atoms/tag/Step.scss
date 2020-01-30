@@ -1,0 +1,17 @@
+@import '../../../scss/color';
+@import "../../../scss/font.scss";
+
+.step__red {
+  align-items: center;
+  background-color: $red;
+  border-radius: 25px;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  font-family: $primaryFont;
+  font-size: 1rem;
+  height: 2rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  width: 7rem;
+}

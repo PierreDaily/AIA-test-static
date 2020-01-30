@@ -1,7 +1,12 @@
 @import '../../../scss/color';
 @import "../../../scss/font.scss";
 
+%allButton {
+  cursor: pointer;
+}
+
 @mixin basicButton {
+  @extend %allButton;
   border-radius: 25px;
   font-family: $primaryFont;
   font-size: 1.4rem;
@@ -16,6 +21,7 @@
 }
 
 @mixin smallHeaderButton {
+  @extend %allButton;
   background: none;
   color: $white;
   font-family: $primaryFont;
