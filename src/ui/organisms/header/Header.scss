@@ -1,7 +1,7 @@
 @import "../../../scss/breakpoints.scss";
 
 .header {
-  background-image: url(../../../images/header/background.jpg);
+  background-image: url(../../../images/header/background-mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -30,6 +30,10 @@
 }
 
 @media (min-width: $break-tablet) {
+  .header {
+    background-image: url(../../../images/header/background-tablet.jpg);
+  }
+
   .header__middle {
     justify-content: center;
     margin: auto;
@@ -46,6 +50,10 @@
 }
 
 @media (min-width: $break-desktop) {
+  .header {
+    background-image: url(../../../images/header/background-desktop.jpg);
+  }
+
   .header__middle {
     width: 40%;
   }
