@@ -8,6 +8,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   & > * {
     margin-bottom: 1.6rem;
@@ -27,7 +28,7 @@
   .guest-preview-list__content {
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 46rem;
+    width: 46rem;
     & > * {
       flex: 0 50%;
     }
@@ -36,6 +37,6 @@
 
 @media (min-width: $break-desktop) {
   .guest-preview-list__content {
-    max-width: none;
+    width: 100%;
   }
 }
