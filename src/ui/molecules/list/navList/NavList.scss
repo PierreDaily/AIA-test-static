@@ -1,0 +1,48 @@
+@import "../../../../scss/breakpoints.scss";
+
+.navlist {
+  margin: auto;
+  width: 23rem;
+
+  & > *:first-child {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+
+ul.nav-list__ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+
+  & > li {
+    flex: 1 0 25%;
+    text-align: center;
+    &:nth-child(5) {
+      text-align: right;
+      flex-grow: 2;
+    }
+  }
+}
+
+@media (min-width: $break-tablet) {
+
+  .navlist {
+    & > *:first-child {
+      text-align: left;
+    }
+  }
+  ul.nav-list__ul {
+    display: block;
+
+    & > li {
+      text-align: left;
+
+      &:nth-child(5) {
+        text-align: left;
+      }
+    }
+  }
+}
