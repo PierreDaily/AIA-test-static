@@ -1,0 +1,10 @@
+@import "../../../../scss/color.scss";
+@import "../../../../scss/font.scss";
+
+.link__list-element{
+  color: $linkGrey;
+  font-family: $secondaryFont;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  text-decoration: none;
+}
