@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Button from "../../atoms/button/Button"
 import Title from "../../atoms/title/Title"
 import GuestPreview from "../../molecules/guestPreview/GuestPreview"
 import "./GuestPreviewList.scss"
@@ -17,6 +18,11 @@ const GuestPreviewList = ({ data, title }) => (
         />
       ))}
     </div>
+    <Button
+      label="See other partners"
+      handleClick={() => null}
+      variant="btn__action__white-bgc"
+    />
   </div>
 )
 
