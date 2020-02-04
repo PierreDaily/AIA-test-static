@@ -8,6 +8,7 @@ import mockCategoryList from "../data/categoryList"
 import mockGuestList from "../data/guestListData"
 import "../scss/template/frontpage.scss"
 import GuestPreviewList from "../ui/organisms/GuestPreviewList/GuestPreviewList"
+import SearchPartners from "../ui/organisms/searchPartners/SearchPartners"
 
 const IndexPage = () => (
   <>
@@ -25,6 +26,12 @@ const IndexPage = () => (
       <CategoryCardGrid
         data={mockCategoryList}
         title="Discover holiday activity ideas"
+      />
+    </section>
+    <section className="front-page___section__search-partners">
+      <SearchPartners
+        content="Hi! What are your holiday interests ?"
+        title="Crate your holiday activity"
       />
     </section>
   </>

@@ -1,0 +1,24 @@
+@import "../../../scss/breakpoints.scss";
+
+.search-partners-block {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  & > *:first-child {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: $break-tablet) {
+  .search-partners-block {
+    & > *:first-child {
+      margin-bottom: 3rem;
+    }
+    & > *:nth-child(2) {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -8,12 +8,21 @@
   margin-left: 2rem;
   margin-right: 2rem;
   height: 9rem;
-  max-width: 28rem;
+  width: 28rem;
 }
 
 @media (min-width: $break-tablet) {
   .form__interest {
     flex-direction: row;
+    width: 47.5rem;
+
+    & > *:first-child {
+      flex-basis: 29.9rem;
+      margin-right: 1rem;
+    }
+    & > *:nth-child(2) {
+      flex-basis: 17.2rem;
+    }
   }
 }
 
