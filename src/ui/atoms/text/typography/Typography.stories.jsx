@@ -11,6 +11,10 @@ export const regularWhiteLight = () => (
   <Typography content="How it works" variant="typo__regular__white-light" />
 )
 
+export const regularDarkGrey = () => (
+  <Typography content="How it works" variant="typo__regular__dark-grey" />
+)
+
 export const smallBlack = () => (
   <Typography content="How it works" variant="typo__small__black" />
 )
