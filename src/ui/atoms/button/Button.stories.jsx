@@ -36,6 +36,14 @@ export const whiteBackground = () => (
   />
 )
 
+export const whiteBackgroundFluid = () => (
+  <Button
+    label="Find your holiday partner"
+    handleClick={action("clicked")}
+    variant="btn__red-bgc__fluid"
+  />
+)
+
 login.story = {
   parameters: darkBGC,
 }

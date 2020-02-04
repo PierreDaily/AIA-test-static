@@ -55,6 +55,14 @@
   color: $white;
 } 
 
+.btn__red-bgc__fluid {
+  @include basicButton;
+  background-color: $red;
+  border: none;
+  color: $white;
+  width: 100%;
+}
+
 .btn__action__white-bgc {
   @include basicButton;
   background-color: $white;
