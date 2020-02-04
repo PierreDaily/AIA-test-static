@@ -30,6 +30,7 @@ ul.nav-list__ul {
 @media (min-width: $break-tablet) {
 
   .navlist {
+    margin: 0;
     & > *:first-child {
       text-align: left;
     }
