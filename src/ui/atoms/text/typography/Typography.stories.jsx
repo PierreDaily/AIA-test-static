@@ -7,6 +7,10 @@ export default {
   component: Typography,
 }
 
+export const designedBy = () => (
+  <Typography content="Designed By" variant="typo__designed-by" />
+)
+
 export const regularWhiteLight = () => (
   <Typography content="How it works" variant="typo__regular__white-light" />
 )

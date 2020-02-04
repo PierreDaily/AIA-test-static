@@ -16,6 +16,13 @@
   line-height:  1.4rem;
 }
 
+.typo__designed-by {
+  color: $designedBy;
+  font-family: $primaryFontBold;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
 .typo__regular__white-light {
   @include regular;
   color: $whiteLight;
