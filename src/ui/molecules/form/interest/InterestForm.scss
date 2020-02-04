@@ -1,0 +1,19 @@
+@import "../../../../scss/breakpoints.scss";
+
+.form__interest {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 9rem;
+  max-width: 28rem;
+}
+
+@media (min-width: $break-tablet) {
+  .form__interest {
+    flex-direction: row;
+  }
+}
+

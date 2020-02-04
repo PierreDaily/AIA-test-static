@@ -36,7 +36,7 @@ export const whiteBackground = () => (
   />
 )
 
-export const whiteBackgroundFluid = () => (
+export const redBackgroundFluid = () => (
   <Button
     label="Find your holiday partner"
     handleClick={action("clicked")}

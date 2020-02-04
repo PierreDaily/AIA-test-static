@@ -7,7 +7,10 @@
   border: solid 1px $inputBorder;
   height: 4rem;
   width: 100%;
-  //
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+  
   font-family: $secondaryFont;
   font-size: 14px;
   font-weight: 300;
@@ -16,6 +19,9 @@
   line-height: normal;
   letter-spacing: normal;
   padding-left: 1.5rem;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-top: 0;
   color: #999999;
 
   &:focus {
