@@ -6,4 +6,4 @@ export default {
   component: Category,
 }
 
-export const category = () => <Category title="sed leo enim, condimentum" />
+export const category = () => <Category category="sport" />
