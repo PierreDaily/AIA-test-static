@@ -23,6 +23,10 @@ export const smallBlack = () => (
   <Typography content="How it works" variant="typo__small__black" />
 )
 
+export const signature = () => (
+  <Typography content="non-grid" variant="typo__signature" />
+)
+
 export const smallGreyLight = () => (
   <Typography content="How it works" variant="typo__small__grey-light" />
 )

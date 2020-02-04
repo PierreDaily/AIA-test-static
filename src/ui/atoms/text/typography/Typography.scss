@@ -35,6 +35,13 @@
   line-height: 1.4rem;
 }
 
+.typo__signature {
+  color: $linkGrey;
+  font-family: $primaryFont;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
 .typo__small__black {
   @include small;
   color: $black;
