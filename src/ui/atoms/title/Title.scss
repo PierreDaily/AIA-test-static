@@ -39,6 +39,12 @@
   font-size: 2.4rem;
 }
 
+.h4__front-page {
+  color: $red;
+  font-family: $primaryFont;
+  font-size: 1.6rem;
+}
+
 @media (min-width: $break-tablet) {
   .h1__front-page__big {
     font-size: 5.4rem;

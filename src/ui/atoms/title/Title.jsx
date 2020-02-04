@@ -12,6 +12,8 @@ const Title = ({ title, variant }) => {
       return <h2 className="h2__front-page">{title}</h2>
     case "h3":
       return <h3 className="h3__front-page">{title}</h3>
+    case "h4":
+      return <h3 className="h4__front-page">{title}</h3>
     default:
       return null
   }
