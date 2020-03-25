@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import "./Avatar.scss"
 
 const Avatar = ({ imgSource }) => (
-  <img className="img__avatar__small" alt="avatar" src={imgSource} />
+  <img className="img-avatar--small" alt="avatar" src={imgSource} />
 )
 
 Avatar.propTypes = {

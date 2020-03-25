@@ -4,7 +4,7 @@ import "./InputText.scss"
 
 const InputText = ({ name, placeholder }) => (
   <input
-    className="input__text__fluid"
+    className="input-text--fluid"
     name={name}
     type="text"
     placeholder={placeholder}

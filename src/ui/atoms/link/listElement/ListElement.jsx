@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import "./ListElement.scss"
 
 const ListElement = ({ content, color, url }) => (
-  <Link className="link__list-element" to={url} style={{ color }}>
+  <Link className="link-li" to={url} style={{ color }}>
     {content}
   </Link>
 )
