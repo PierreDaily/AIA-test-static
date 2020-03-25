@@ -9,7 +9,7 @@ const InterestForm = () => (
     <Button
       handleClick={() => null}
       label="Search partners"
-      variant="btn__red-bgc__fluid"
+      variant="btn--red-bgc-fluid"
     />
   </form>
 )

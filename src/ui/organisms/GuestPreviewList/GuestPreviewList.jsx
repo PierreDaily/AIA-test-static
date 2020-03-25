@@ -21,7 +21,7 @@ const GuestPreviewList = ({ data, title }) => (
     <Button
       label="See other partners"
       handleClick={() => null}
-      variant="btn__action__white-bgc"
+      variant="btn--action-white-bgc"
     />
   </div>
 )

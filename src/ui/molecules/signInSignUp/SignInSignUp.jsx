@@ -9,12 +9,12 @@ const SignInSignUp = ({ handleLoginClick, handleSignInClick }) => (
       <Button
         handleClick={handleLoginClick}
         label="Login"
-        variant="btn__login"
+        variant="btn--login"
       />
       <Button
         handleClick={handleSignInClick}
         label="Sign up"
-        variant="btn__sign-up"
+        variant="btn--sign-up"
       />
     </div>
     <Title title="HOLIDAY HOLIDAY" variant="h1Subtitle" />

@@ -9,14 +9,14 @@ export default {
 }
 
 export const login = () => (
-  <Button label="Login" handleClick={action("clicked")} variant="btn__login" />
+  <Button label="Login" handleClick={action("clicked")} variant="btn--login" />
 )
 
 export const signIn = () => (
   <Button
     label="Sign up"
     handleClick={action("clicked")}
-    variant="btn__sign-up"
+    variant="btn--sign-up"
   />
 )
 
@@ -24,7 +24,7 @@ export const redBackground = () => (
   <Button
     label="Find your holiday partner"
     handleClick={action("clicked")}
-    variant="btn__action__red-bgc"
+    variant="btn--action-red-bgc"
   />
 )
 
@@ -32,7 +32,7 @@ export const whiteBackground = () => (
   <Button
     label="Find your holiday partner"
     handleClick={action("clicked")}
-    variant="btn__action__white-bgc"
+    variant="btn--action-white-bgc"
   />
 )
 
@@ -40,7 +40,7 @@ export const redBackgroundFluid = () => (
   <Button
     label="Find your holiday partner"
     handleClick={action("clicked")}
-    variant="btn__red-bgc__fluid"
+    variant="btn--red-bgc-fluid"
   />
 )
 

@@ -73,27 +73,27 @@
   letter-spacing: normal;
 }
 
-.btn__login {
+.btn--login {
   @extend %smallHeaderButton;
   border: none;
   padding-left: 0;
   width: 6rem;;
 }
 
-.btn__sign-up {
+.btn--sign-up {
   @extend %smallHeaderButton;
   border-radius: 40px;
   border: solid 2px #ffffff;
 }
 
-.btn__action__red-bgc {
+.btn--action-red-bgc {
   @extend %basicButton;
   @include left2RightTransition($red);
   border: none;
   color: $white;
 } 
 
-.btn__red-bgc__fluid {
+.btn--red-bgc-fluid {
   @extend %basicButton;
   @include left2RightTransition($red);
   border: none;
@@ -101,7 +101,7 @@
   width: 100%;
 }
 
-.btn__action__white-bgc {
+.btn--action-white-bgc {
   @extend %basicButton;
   @include left2RightTransition($white);
   background-color: $white;

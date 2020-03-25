@@ -14,7 +14,7 @@ const Introduction = () => (
     <Button
       label="Find your holiday partner"
       handleClick={() => null}
-      variant="btn__action__red-bgc"
+      variant="btn--action-red-bgc"
     />
   </div>
 )
