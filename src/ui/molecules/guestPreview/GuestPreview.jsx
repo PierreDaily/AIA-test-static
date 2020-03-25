@@ -7,8 +7,8 @@ import "./GuestPreview.scss"
 const GuestPreview = ({ content, fullName, imgSource }) => (
   <div className="guest-preview">
     <Avatar imgSource={imgSource} />
-    <Typography content={fullName} variant="typo__small__black" />
-    <Typography content={content} variant="typo__small__grey-dark" />
+    <Typography content={fullName} variant="typo--small-black" />
+    <Typography content={content} variant="typo--small-grey-dark" />
   </div>
 )
 

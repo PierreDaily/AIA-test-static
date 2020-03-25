@@ -8,30 +8,30 @@ export default {
 }
 
 export const designedBy = () => (
-  <Typography content="Designed By" variant="typo__designed-by" />
+  <Typography content="Designed By" variant="typo--designed-by" />
 )
 
 export const regularWhiteLight = () => (
-  <Typography content="How it works" variant="typo__regular__white-light" />
+  <Typography content="How it works" variant="typo--regular-white-light" />
 )
 
 export const regularDarkGrey = () => (
-  <Typography content="How it works" variant="typo__regular__dark-grey" />
+  <Typography content="How it works" variant="typo--regular-dark-grey" />
 )
 
 export const smallBlack = () => (
-  <Typography content="How it works" variant="typo__small__black" />
+  <Typography content="How it works" variant="typo--small-black" />
 )
 
 export const signature = () => (
-  <Typography content="non-grid" variant="typo__signature" />
+  <Typography content="non-grid" variant="typo--signature" />
 )
 
 export const smallGreyLight = () => (
-  <Typography content="How it works" variant="typo__small__grey-light" />
+  <Typography content="How it works" variant="typo--small-grey-light" />
 )
 export const smallGreyDark = () => (
-  <Typography content="Sed-leo-enim-condim" variant="typo__small__grey-dark" />
+  <Typography content="Sed-leo-enim-condim" variant="typo--small-grey-dark" />
 )
 
 regularWhiteLight.story = {

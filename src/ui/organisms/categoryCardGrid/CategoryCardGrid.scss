@@ -6,7 +6,7 @@
   }
 }
 
-.category-card-grid {
+.category__card-grid {
   & > * {
     margin-bottom: 1rem;
   }
@@ -19,7 +19,7 @@
     }
   }
 
-  .category-card-grid {
+  .category__card-grid {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -39,7 +39,7 @@
 }
 
 @media (min-width: $break-desktop) {
-  .category-card-grid {
+  .category__card-grid {
     min-width: 96rem;
 
     & > * {

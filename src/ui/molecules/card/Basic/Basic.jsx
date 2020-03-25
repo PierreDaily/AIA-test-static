@@ -10,7 +10,7 @@ const Basic = ({ content, imgSource, stepIndex, title }) => (
   <div className="card-basic" style={{ backgroundImage: `url(${imgSource})` }}>
     <Step content={`step ${stepIndex}`} />
     <Title variant="h3" title={title} />
-    <Typography content={content} variant="typo__small__grey-light" />
+    <Typography content={content} variant="typo--small-grey-light" />
   </div>
 )
 

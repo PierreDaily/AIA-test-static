@@ -4,7 +4,7 @@ import Button from "../../../atoms/button/Button"
 import "./InterestForm.scss"
 
 const InterestForm = () => (
-  <form action="#" className="form__interest">
+  <form action="#" className="form-interest">
     <InputText name="interests" placeholder="Enter your interests" />
     <Button
       handleClick={() => null}

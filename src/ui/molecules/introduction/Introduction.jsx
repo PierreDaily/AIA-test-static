@@ -9,7 +9,7 @@ const Introduction = () => (
     <Title title="share your holiday dream" variant="h1" />
     <Typography
       content="And find the perfect partner to fullfill it"
-      variant="typo__regular__white-light"
+      variant="typo--regular-white-light"
     />
     <Button
       label="Find your holiday partner"

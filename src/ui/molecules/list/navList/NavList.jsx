@@ -6,7 +6,7 @@ import "./NavList.scss"
 
 const NavList = ({ linkList, title }) => (
   <div className="navlist">
-    <Typography content={title} variant="typo__small__black" />
+    <Typography content={title} variant="typo--small-black" />
     <ul className="nav-list__ul">
       {linkList.map(linkObj => (
         <li>

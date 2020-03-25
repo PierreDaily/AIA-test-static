@@ -16,7 +16,7 @@
   line-height:  1.4rem;
 }
 
-.typo__designed-by {
+.typo--designed-by {
   color: $designedBy;
   font-family: $primaryFontBold;
   font-size: 1rem;
@@ -24,26 +24,26 @@
   text-transform: uppercase;
 }
 
-.typo__regular__white-light {
+.typo--regular-white-light {
   @include regular;
   color: $whiteLight;
   text-align: center;
 }
 
-.typo__regular__dark-grey {
+.typo--regular-dark-grey {
   @include regular;
   color: $greyDark;
   line-height: 1.4rem;
 }
 
-.typo__signature {
+.typo--signature {
   color: $linkGrey;
   font-family: $primaryFont;
   font-size: 1.8rem;
   text-transform: uppercase;
 }
 
-.typo__small__black {
+.typo--small-black {
   @include small;
   color: $black;
   font-family: $primaryFontBold;
@@ -51,12 +51,12 @@
   margin-top: 0;
 }
 
-.typo__small__grey-light {
+.typo--small-grey-light {
   @include small;
   color: $greyLight;
 }
 
-.typo__small__grey-dark {
+.typo--small-grey-dark {
   @include small;
   color: $greyDark;
   line-height: 1.6rem;
@@ -67,7 +67,7 @@
 }
 
 @media (min-width: $break-tablet) {
-  .typo__regular__white-light{
+  .typo--regular-white-light{
     font-size: 2.4rem;
   }
 }

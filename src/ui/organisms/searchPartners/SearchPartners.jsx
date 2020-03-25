@@ -8,7 +8,7 @@ import "./SearchPartners.scss"
 const SearchPartners = ({ title, content }) => (
   <div className="search-partners-block">
     <Title title={title} variant="h2" />
-    <Typography content={content} variant="typo__regular__dark-grey" />
+    <Typography content={content} variant="typo--regular-dark-grey" />
     <InterestForm />
   </div>
 )

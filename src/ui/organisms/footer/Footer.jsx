@@ -11,8 +11,8 @@ const Footer = ({ companyLinkList, partnersLinkList }) => (
     <NavList linkList={companyLinkList} title="Company" />
     <NavList linkList={partnersLinkList} title="Partners" />
     <div>
-      <Typography content="designed by" variant="typo__designed-by" />
-      <Typography content="non-grid" variant="typo__signature" />
+      <Typography content="designed by" variant="typo--designed-by" />
+      <Typography content="non-grid" variant="typo--signature" />
     </div>
   </footer>
 )

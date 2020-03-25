@@ -7,7 +7,7 @@ import "./CategoryCardGrid.scss"
 const CategoryCardGrid = ({ data, title }) => (
   <div className="category">
     <Title variant="h2" title={title} />
-    <div className="category-card-grid">
+    <div className="category__card-grid">
       {data.map(categoryTitle => (
         <Category category={categoryTitle} key={categoryTitle} />
       ))}
