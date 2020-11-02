@@ -1,0 +1,18 @@
+.block-animation--primary {
+  animation: mymove 1s forwards;
+}
+
+.block-animation--hidden {
+  visibility: hidden;
+}
+
+@keyframes mymove {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}

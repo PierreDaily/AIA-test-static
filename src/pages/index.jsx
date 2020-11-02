@@ -11,39 +11,51 @@ import mockPartnersLinkList from "../data/linkList/partners"
 import "../scss/template/frontpage.scss"
 import GuestPreviewList from "../ui/organisms/GuestPreviewList/GuestPreviewList"
 import SearchPartners from "../ui/organisms/searchPartners/SearchPartners"
+import { DisplayOnScroll } from "../components/DisplayOnScroll"
 
-const IndexPage = () => (
-  <>
-    <Header />
-    <section className="front-page__section">
-      <BasicCardList title="How it works" data={mockCardListData} />
-    </section>
-    <section className="front-page__section">
-      <GuestPreviewList
-        data={mockGuestList}
-        title="Meet a partner for your best holiday"
-      />
-    </section>
-    <section className="front-page__section">
-      <CategoryCardGrid
-        data={mockCategoryList}
-        title="Discover holiday activity ideas"
-      />
-    </section>
-    <section className="front-page__section__search-partners">
-      <SearchPartners
-        content="Hi! What are your holiday interests ?"
-        title="Crate your holiday activity"
-      />
-    </section>
-    {}
-    <section className="front-page__section">
-      <Footer
-        companyLinkList={mockCompanyLinkList}
-        partnersLinkList={mockPartnersLinkList}
-      />
-    </section>
-  </>
-)
+const IndexPage = () => {
+
+  return (
+    <>
+        <Header />
+      <DisplayOnScroll>
+        <section className="front-page__section">
+          <BasicCardList title="How it works" data={mockCardListData} />
+        </section>
+      </DisplayOnScroll>
+      <DisplayOnScroll>
+        <section className="front-page__section">
+          <GuestPreviewList
+            data={mockGuestList}
+            title="Meet a partner for your best holiday"
+          />
+        </section>
+      </DisplayOnScroll>
+
+      <DisplayOnScroll>
+        <section className="front-page__section">
+          <CategoryCardGrid
+            data={mockCategoryList}
+            title="Discover holiday activity ideas"
+          />
+        </section>
+      </DisplayOnScroll>
+      <DisplayOnScroll>
+        <section className="front-page__section__search-partners">
+          <SearchPartners
+            content="Hi! What are your holiday interests ?"
+            title="Crate your holiday activity"
+          />
+        </section>
+      </DisplayOnScroll>
+      <section className="front-page__section">
+        <Footer
+          companyLinkList={mockCompanyLinkList}
+          partnersLinkList={mockPartnersLinkList}
+        />
+      </section>
+    </>
+  )
+}
 
 export default IndexPage
