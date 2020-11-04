@@ -18,10 +18,10 @@ const NavList = ({ linkList, title }) => (
 )
 
 NavList.propTypes = {
-  linkList: PropTypes.arrayOf({
+  linkList: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
-  }).isRequired,
+  })).isRequired,
   title: PropTypes.string.isRequired,
 }
 export default NavList
