@@ -9,7 +9,7 @@ const NavList = ({ linkList, title }) => (
     <Typography content={title} variant="typo--small-black" />
     <ul className="nav-list__ul">
       {linkList.map(linkObj => (
-        <li>
+        <li key={linkObj.title}>
           <LinkElement content={linkObj.title} url={linkObj.url} />
         </li>
       ))}
