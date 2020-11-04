@@ -18,14 +18,14 @@ const Footer = ({ companyLinkList, partnersLinkList }) => (
 )
 
 Footer.propTypes = {
-  companyLinkList: PropTypes.arrayOf({
+  companyLinkList: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
-  }).isRequired,
-  partnersLinkList: PropTypes.arrayOf({
+  })).isRequired,
+  partnersLinkList: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
-  }).isRequired,
+  })).isRequired,
 }
 
 export default Footer
