@@ -8,13 +8,13 @@ const BasicCardList = ({ title, data }) => (
   <div className="basic-card-list">
     <Title variant="h2" title={title} />
     <div className="basic-card-list__content">
-      {Object.keys(data).map(stepIndex => (
+      {data.map(card => (
         <Card
-          content={data[stepIndex].content}
-          imgSource={data[stepIndex].imgSource}
-          key={stepIndex}
-          stepIndex={Number(stepIndex)}
-          title={data[stepIndex].title}
+          content={card.content}
+          imgSource={card.imgSource}
+          key={card.step}
+          stepIndex={card.step}
+          title={card.title}
         />
       ))}
     </div>
@@ -22,15 +22,18 @@ const BasicCardList = ({ title, data }) => (
 )
 
 BasicCardList.defaultProps = {
-  title: null,
+  title: "",
 }
 BasicCardList.propTypes = {
   title: PropTypes.string,
-  data: PropTypes.shape({
-    content: PropTypes.string.isRequired,
-    imgSource: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-  }).isRequired,
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      content: PropTypes.string.isRequired,
+      imgSource: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+      step: PropTypes.number.isRequired,
+    })
+  ).isRequired,
 }
 
 export default BasicCardList
